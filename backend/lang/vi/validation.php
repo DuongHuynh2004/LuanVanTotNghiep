@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'custom' => ['phone' => ['regex' => 'Số điện thoại phải bắt đầu bằng 0 và có đúng 10 chữ số.']],
+    'required' => ':attribute là bắt buộc.',
+    'required_with' => ':attribute là bắt buộc khi có :values.',
+    'email' => ':attribute không đúng định dạng email.',
+    'unique' => ':attribute đã được sử dụng.',
+    'confirmed' => 'Xác nhận :attribute không khớp.',
+    'current_password' => 'Mật khẩu hiện tại không chính xác.',
+    'string' => ':attribute phải là chuỗi ký tự.',
+    'numeric' => ':attribute phải là số.',
+    'integer' => ':attribute phải là số nguyên.',
+    'boolean' => ':attribute không hợp lệ.',
+    'in' => ':attribute không hợp lệ.',
+    'regex' => ':attribute không đúng định dạng.',
+    'distinct' => ':attribute bị trùng.',
+    'array' => ':attribute phải là danh sách.',
+    'present' => ':attribute phải được gửi kèm.',
+    'image' => ':attribute phải là tệp ảnh.',
+    'mimes' => ':attribute chỉ hỗ trợ: :values.',
+    'min' => ['string' => ':attribute cần ít nhất :min ký tự.', 'numeric' => ':attribute phải từ :min trở lên.', 'array' => ':attribute cần ít nhất :min phần tử.'],
+    'max' => ['string' => ':attribute tối đa :max ký tự.', 'numeric' => ':attribute không được vượt quá :max.', 'array' => ':attribute tối đa :max phần tử.', 'file' => ':attribute tối đa :max KB.'],
+    'password' => ['letters' => 'Mật khẩu phải chứa chữ cái.', 'numbers' => 'Mật khẩu phải chứa chữ số.'],
+    'attributes' => ['name' => 'Họ tên / tên sản phẩm', 'email' => 'Email', 'phone' => 'Số điện thoại', 'password' => 'Mật khẩu', 'current_password' => 'Mật khẩu hiện tại', 'slug' => 'Đường dẫn', 'price' => 'Giá', 'variants' => 'Biến thể', 'images' => 'Ảnh sản phẩm', 'image' => 'Ảnh tải lên', 'variants.*.sku' => 'SKU', 'variants.*.stock' => 'Tồn kho'],
+];
